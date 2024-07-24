@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, rgb(50, 45, 87), rgb(71, 63, 117));
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0.5% auto;
+    padding: 15px;
+    text-align: center;
+    font-size: 45px;
+    background-color: rgb(25, 26, 74);
+    border-radius: 15px;
+    position: relative;
+}
+
+header .logo {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    max-height: 50px;
+}
+
+nav {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0.5% auto;
+    padding: 15px;
+    text-align: center;
+    background-color: #1a6a5c;
+    border-radius: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 1% auto;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgb(0, 0, 0);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.content h1 {
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.imagen {
+    margin-bottom: 20px;
+}
+
+.imagen img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+p {
+    max-width: 800px;
+    text-align: justify;
+    color: black;
+    margin: 20px 0;
+}
+
+footer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 1% auto;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(25, 26, 74);
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+html {
+    scroll-behavior: smooth;
+}

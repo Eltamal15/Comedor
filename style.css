@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(20,19,27);
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    background: url(imagenes/WhatsApp\ Image\ 2024-02-11\ at\ 10.44.19.jpeg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgba(26, 26, 26, 0.85); /* Fondo semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(20,19,27);
+    padding: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.menu-item:hover {
+    transform: scale(1.1);
+}
+
+.menu-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.menu-item p {
+    margin-top: 10px;
+    color: #ffffff;
+}

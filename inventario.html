@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayuda inventario</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="icon" href="imagenes/logo sin fondo.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="imagenes/logo sin fondo.png" alt="logo" class="logo">
+        Inventario</header>
+    <nav>
+        <ul>
+            <li><a href="#agregar">Agregar</a></li>
+            <li><a href="#modificar">Modificar</a></li>
+            <li><a href="#suma">Sumar cantidad de ingredientes</a></li>
+            <li><a href="#reporte">Reporte</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="content">
+            <div class="imagen">
+                <img src="Recorte Pantallas/frmInventario.png" alt="Inventario">
+            </div>
+            <h1 id="agregar">Agregar</h1>
+            <p>
+                Para poder agregar un nuevo producto el cliente tiene que llenar los espacios de nombre, proveedor, descripcion, y cantidad obligatoriamente. <br>
+                <br>
+                En el apartado de nombre el usuario tendra que ingresar el nombre, no podra ingresar una cadena menor a 3 digitos ni una mayor a 30. <br>
+                <br>
+                El proveedor se desplegara una lista con los proveedores ingresados al sistema, en caso de que no aparezca ni un proveedor tendra que agregar uno ya que podria ejecutar un error en el programa. <br>
+                <br>
+                La descripcion del producto un espacion obligatorio llenarlo. <br>
+                <br>
+                El campo de observaciones no es un campo obligatorio de llenar pero es recomendable en todo caso que necesite seguir instrucciones ej.(Mantenerse refrigerado). <br>
+                <br>
+                En el campo de cantidad la primera vez se necesita ingresar la cantidad se va registrar, esta se modificara automaticamente siempre que se realice un platillo
+                con cierta cantidad. Para sumar mas cantidades del ingrediente es necesario apretar el boton de suma que esta al lado. (+) <br>
+                <br>
+                Una vez que el usuario haya verificado que los datos que va ingresar son correctos solamente necesitara apretar le boton "Agregar" y se hara la creacion del producto y se vera reflejado en la tabla. <br>
+                Tomar en cuenta que si se introduce un producto que ya existe mostrara un mensaje de error.
+            </p>
+            <h1 id="modificar">Modificar</h1>
+            <p>
+                Para modificar un producto el usuario tendra que seleccionar el producto de la tabla, una vez ya seleccionado se mostraran automaticamente en sus campos
+                el usuario ya podra modificar el campo necesario. <br>
+                Tomar en cuenta que si modifica por un producto existente mostrara un error.
+            </p>
+            <h1 id="suma">Sumar cantidad</h1>
+            <div class="imagen">
+                <img src="Recorte Pantallas/frmSumar.png" alt="Sumar cantidad">
+            </div>
+            <p>
+                Para poder sumar la cantidad el usuario necesita ingresar la cantidad de producto nuevo en el espacio de "cantidad a sumar" seguido de eso apretar el boton de suma para que se realice automaticamente.
+            </p>
+            <h1 id="reporte">Reporte</h1>
+            <p>
+                Para que el usuario pueda ver el reporte de inventario tendra que hacer clik sobre el boton de reporte inventario.
+                <br>
+                Una vez seleccionado se ejecutara el reporte para poder imprimirlo.
+            </p>
+            <div class="imagen">
+                <img src="Recorte Pantallas/ReporteInventario.png" alt="Reporte">
+            </div>
+        </div>
+    </section>
+    <footer>Comedor Suyapa 2024 ®</footer>
+</body>
+</html>
